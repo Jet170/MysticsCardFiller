@@ -166,7 +166,7 @@ def createCockatriceXML():
         text.text = dataCard['Text']
         prop = ET.SubElement(xmlCard, 'prop')
         set = ET.SubElement(xmlCard, 'set')
-        set.set('picurl', picURL + '/' + dataCard['Name'].replace(' ', '%') + '.png')
+        set.set('picurl', picURL + '/' + dataCard['Name'].replace(' ', '%20') + '.png')
         set.text=setShortName
         tablerow = ET.SubElement(xmlCard, 'tablerow')
         tablerow.text='1'
