@@ -163,7 +163,7 @@ def createCockatriceXML():
         name = ET.SubElement(xmlCard, 'name')
         name.text = dataCard['Name']
         text = ET.SubElement(xmlCard, 'text')
-        text.text = dataCard['Text']
+        text.text = 'Mana ' + dataCard['Mana'] + ' Type ' + dataCard['Type'] + ' Magic Type ' + dataCard['MagicType'] + ' Description ' + dataCard['Text']
         prop = ET.SubElement(xmlCard, 'prop')
         set = ET.SubElement(xmlCard, 'set')
         set.set('picurl', picURL + '/' + dataCard['Name'].replace(' ', '%20') + '.png')
@@ -177,7 +177,14 @@ def createCockatriceXML():
     outputFile.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     outputFile.write(ET.tostring(topLevel, encoding='unicode'))
     print('XML file created successfuly')
-CsvToWord()
-wordToPdf(True)
-createCardImages()
-createCockatriceXML()
+
+printable = input("Create printable? ")
+if printable.upper() == 'YES' or printable.upper() == 'Y':
+    CsvToWord()
+pdf = input("Create pdf? ")
+if(pdf.upper() == 'YES' or pdf.upper() == 'Y'):
+    wordToPdf(True)
+cockatrice = input("Update cockatrice? ")
+if(cockatrice.upper() == 'YES' or cockatrice.upper() == 'Y'):
+    createCardImages()
+    createCockatriceXML()
