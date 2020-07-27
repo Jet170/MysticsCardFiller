@@ -1,3 +1,4 @@
+Names,Cost,Card Type,Magic Type,Text
 Skip to my Lou Reed,6,Galdr,Arcane,Skip target player's turn. If this card has two or more charge counters on it remove all charge counters from that players chambered cards
 Maleficent's Curse,9,Galdr,Arcane,Cursed character dies if they lose a match. 
 Up the Stakes,8,Galdr,Arcane,Whoever has a higher life total at the end of this round wins the match. Gain life equal to the number of charge counters on this card
@@ -58,15 +59,34 @@ Overflow,2,Pro-Can,Deep,"Each player draws 2 cards, deal 3 damage to any target"
 Deep Blue,10,Galdr,Deep,Target Mystic draws their entire reserves.
 Overwhelm,4,Galdr-Hex,Deep,Whenever you draw more than 1 card target Mystic loses 3 life
 Oceanic Scouring,3,Pro-Can,Deep,Expunge one hex target Mystic owns for every 3 cards in their hand
+Benthic Rejection,2,Re-Can,Deep,Void target spell. The spells caster draws 2 cards.
 Dark Deeds,4,Galdr,Delirium,"Each Player discards 3 cards, and takes damage equal to the number of charge counters on this card"
 Mind Muddle,6,Galdr,Delirium,Hexed player cannot cast Re-Cantrips. 
-Revel in the Madness,5,Galdr,Delirium,"Take 3 damage, target opponent discards a card or breaks a card in their chamber. Repeat this process any number of times. "
-Purge,5,Galdr,Delirium,"As an additional cost, discard your hand. Deal 2 damage for each card discarded this way. Draw cards equal to the number of charge counters on ~. "
+Revel in the Madness,5,Galdr,Delirium,"Pay 3 life, target opponent discards a card or breaks a card in their chamber. Repeat this process any number of times. "
+Purge,5,Galdr,Delirium,"As an additional cost, discard your hand. Deal 2 damage for each card discarded this way. Draw cards equal to the number of charge counters on Purge"
 Curse of Fifths,0,Galdr-Curse,Delirium,"Draw 5 cards, gain 5 mana, gain ""Curse of Fifths"" which limits the amount of mana in your mana pool to 5, and at the begining of each round makes you lose 5 life"
-Burden of Atlas,5,Galdr-Hex,Delirium,Hexed player must pay an additional mana for each charge counter on their chambered spells. Remove a charge counter from any card for each charge counter on this card
+Burden of Atlas,5,Galdr-Hex,Delirium,"Hexed Mystic, at the begining of their turn, must pay one mana for each charge counter on their chambered spells. Remove a charge counter from any card for each charge counter on this card"
 Grip of fear,3,Galdr-Hex,Delirium,At the begining of the hexed players turn they take 1 damage for every chambered card they have. Break 1 chambered card if this card has one or more charge counters on it
-Mental limiter,4,Galdr-Hex,Delirium,Hexed player's chamber size is reduced by 1
+Mental limiter,4,Galdr-Hex,Delirium,Hexed player's chamber size is reduced by 1 (This does not break any chambered cards that they might have)
 Ambrosia of Darkness,4,Pro-Can,Delirium,Gain control of target Conjuration
+Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics Refresh, and the next round starts with the amount of mana it would have normally started at)"
+Jeering Simii,3,Galdr-Conj,Delirium,1/3. Reproachful Simii attacks target player whenever they discard a card. You cannot be attacked by conjurations as long as you own Reproachful Simii
+Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
+Misery's Company,2,Galdr-Hex,Delirium,At the begining of each Mystic's turn that player discards a card.
+Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at end of turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
+Delusion,2,Re-Can,Delirium,Void target spell cast by another Mystic. That Mystic reveals the top card of their reserves and if it shares the same type (galdr or cantrip) casts it without paying its mana cost.
+Methodical Madness,1,Galdr-Jinx,Delirium,"Once, on each of your turns, you may discard a card, if you do, draw a card."
+Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or more mana.
+Whither the Weak,2,Pro-Can,Delirium,Each Mystic with 2 or less cards in hand discards a card and loses 3 life
+Putrid Flies,3,Galdr-Conj,Delirium,1/1. Putried Flies may attack target Mystic whenever a card enters their hollows
+Swarm of Sickness,2,Pro-Can,Delirium,"If you own a Fly conjuration, create 4 copies of that conjuration."
+Maggotting Flies,4,Galdr-Conj,Delirium,"Whenever another conjuration takes damage, create a copy of Maggotting Flies. Maggotting Flies may attack at the end of your turn."
+Rotting Lands,3,Galdr-Hex,Delirium,At the end of your turn create a copy of a Fly conjuration you own.
+Swarming Flies,4,Galdr-Conj,Delirium,1/1. Copy this spell for each charge counter on it. Swarming Flies attacks whenver a non-Fly conjuration enters play. Swarming flies take no damage from defending conjurations when attackingthat conjuration.
+Lord of the Flies,6,Galdr-Conj,Delirium,"0/1. Lord of the Flies gets +1 attack for each other fly you own. Whenever a fly you own attacks a target, all other flies you own attack that target as well."
+Crazed Mind,2,Pro-Can,Delirium,"Each Mystic discards a card. If you have discarded at least two cards this turn, draw a card."
+Buzz Kill,3,Hol-Can,Delirium,"Void target spell, destroy target conjuration, or expunge target hex. Cast only if you own two or more flies."
+Depressing Rejection,2,Re-Can,Delirium,"Void target spell, if you do, lose life equal to its mana cost. Each Mystic discards a card."
 Expand Mind,4,Galdr-Hex,Divination,Increase your chamber size by 2. Look at target Mystics chambered cards if one or more charge counters are on this card.
 Empathetic Coupling,4,Galdr-Hex,Divination,You can look at hexed player's chambered spells at any time
 Precision Strike,3,Pro-Can,Divination,Look at target player's chambered cards. Break 1 target chambered card. 
@@ -74,6 +94,18 @@ See Through,1,Pro-Can,Divination,"Look at target player's chambered cards, draw 
 Flash of Insight,0,Pro-Can,Divination,"Look at up to two cards in target player's hand, and or their chambered cards, draw a card"
 Knowledge Puddle,1,Re-Can,Divination,"As an additional cost to cast this spell reveal any number of cards from your hand, void target Pro-Can unless the caster reveals more cards from their hand than you revealed this way"
 Plan B,1,Re-Can,Divination,"Shuffle the cards from your hand into your reserves, draw that many number of cards plus 1"
+Know Your Enemy,2,Re-Can,Divination,"Void target spell. Cast only if you can correctly name two cards in the casters' hand or chamber. They must reveal their hand and chamber to you(if they have only 1 card, name that card correctly. If they have 0 you do not need to name any)"
+Mind Read,2,Galdr-Jinx,Divination,"Whenever jinxed Mystic draws a card, they must reveal it to you. Draw a card if one or more charge counters on Mind Read"
+Master of Deduction,3,Galdr,Divination,For every card in target Mystic's hand or chamber name a card. Then that Mystic reveals all cards in their hand or chamber. For every card you correctly name they lose 3 life.
+Point of Mind,2,Pro-Can,Divination,"Draw a card. If you own looked at a card in another Mystic's hand or chamber this turn, deal 2 damage to any target and draw an additional card."
+Insight's Rejection,2,Re-Can,Divination,"Void target spell. The spells caster reveals the top card of their reserves, and puts it into their hand"
+Train of Thought,5,Galdr,Divination,"Name a card, then reveal the top card of your reserves, if it has the same name as the card you named, you may cast it without paying its cost, then repeat this process."
+Mental Disorder,2,Pro-Can,Divination,"Target Opponent reveals their hand, choose 1 card and put it on the bottom of their reserves"
+Cerebral Pressure,3,Galdr-Hex,Divination,"Whenever another Mystic reveals any number of cards to you, they lose that much life."
+Excitable Euron,3,Galdr-Conj,Divination,1/3. Can attack at end of turn if a card was revealed to you this turn. Gets +1 attack for every card revealed to you this turn.
+Progression,2,Galdr,Divination,"reveal the top 5 cards of your reserves to yourself. Put one into your hand, two on the top of your reserves, and two on the bottom of you reserves in any order."
+Thought Experiment,4,Galdr,Divination,"Target opponent reveals 3 cards from their hand to you, you may cast 1 card without paying its mana cost. That opponent draws a card."
+Mind Explosion,7,Galdr-Hex,Divination,"Whenever a Mystic reveals a card, that card stays revealed until the end of the round. Mystics may reveal a previously unrevealed card from their hand or chamber to cast an unrevealed card from their chamber or hand without paying its mana cost."
 Primordial Beast,4,Galdr-Conj,Druidic,"2 damage, 2 HP.  Whenever you cast a druidic spell primordial beast attacks."
 Elemental Ants,3,Galdr-Conj,Druidic,"1 damage, 1 HP. When you cast this spell copy it for each charge counter on this card. Whenever a player casts a cantrip Elemental ants can attack that player."
 Curse of Nature's Severance,5,Galdr-Curse,Druidic,Affected player cannot cast conjuration spells. This spell must be cast with 3 charge counters on it.
@@ -86,6 +118,7 @@ Canid,2,Galdr-Conj,Druidic,"1 attack, 2 HP. Canid gets +1 attack for every other
 Life's Flow,2,Pro-Can,Druidic,Until end of turn gain 1 charge counter whenever a beast attacks. Draw a card
 Hidden Strength,1,Hol-Can,Druidic,Target beast you control gets +x attack and +x HP where x is 2 + the number of charge counters on Hidden Strength *This spell can be cast face down from the chamber*
 Feed,2,Pro-Can,Druidic,Deal 3 damage to any target that was damaged this turn by a beast that you own. Gain 3 life.
+Beasts' Rejection,2,Re-Can,Druidic,"As an additional cost to cast this spell, destroy target conjuration you own. Void target spell."
 Momentum,1,Galdr,Energy,"Deal 1 damage, draw 1 card, put 1 charge counters on 1 chambered card, activate 1 chambered Galdr"
 Momentum Abstraction,2,Galdr,Energy,Move all charge counters from another players chambered card to your chambered card. Draw two cards if there are two or more charge counters on this card
 Sudden Quickening,2,Galdr,Energy,Place 4 charge counters among any number of chambered cards
@@ -125,6 +158,9 @@ Shielding walls,5,Galdr-Hex,Ice,"Hexed player reduces all damage dealt by anothe
 Brain Thaw,4,Pro-Can,Ice,2 target chambered spells don't activate at the beginnning of their controller's turn.
 Diffuse,2,Pro-Can,Ice,Break a chambered card
 Stun,3,Pro-Can,Ice,"Deal 2 damage, Freeze target player's chambered cards"
+Numbing Crystal,1,Galdr-Jinx,Ice,Target Mystic places two cards at random from their hand face down underneath Numbing Crystal. Return these cards to their hand when Numbing Crystal leaves play.
+Frosty Rejection,2,Re-Can,Ice,"Void target spell, if you do, put it into its caster's chamber, frozen. (if the chamber is full put it into its casters hollows)"
+Frozen in Time,1,Pro-Can,Ice-Divination,"Look at up to three cards in target Mystics chamber. Freeze 1 of them. If that Mystic already had a frozen card, draw a card."
 Sinoie's Ire,4,Galdr-Hex,Silver,Hexed Mystic loses the match if they would draw a card and their reserves are empty.
 Black Hole Sun,10,Galdr,Silver,Target Mystic fades their entire reserves.
 New Moon,2,Galdr,Silver,Shuffle up to 6 cards from your hollows into your reserves. If there are three or more charge counters on this card instead put them on top of your reserves in any order
@@ -150,6 +186,7 @@ Night Reptus,3,Galdr,Silver,6 attack 4 HP. Night Reptus can attack whenever a My
 Corpse Genesis,1,Galdr,Silver,Put target conjuration from a hollows into play under your control. You lose life equal to the conjuration's attack value
 Swallow of Darkness,2,Re-Can,Silver,Prevent all damage that target spell or attack would deal. Instead fade that many cards
 Fraying Reality,2,Galdr-Hex,Silver,When you cast this spell hexed Mystic loses 2 mana for each charge counter on Fraying Reality. Hexed player fades 6 whenever they have go down to 0 mana.
+Silhouette ,5,Gladr-Hex,Silver,You are warded
 Compulsory removal,3,Galdr,Void,"Expunge up to 3 hexes and or curses, deal 3 damage reduced by 1 for each charge counter on this card to each player affected by this card"
 Counter Magic,2,Re-Can,Void,"Reduce another player's spell that is damaging you by two damage, deal 2 damage to that player"
 Denial,2,Re-Can,Void,"Void target cantrip, *This spell can only be Cast face down from the chamber*"
@@ -167,40 +204,4 @@ Spell Refraction,3,Re-Can,Void,Change target of target spell. New target must be
 Neural Interruption,4,Galdr-hex,Void,Mystics cannot draw cards.
 Rule of Six,6,Galdr-Hex,Void,Spells with mana costs of 6 or greater can't be cast
 Gen-Z Automaton,2,Galdr-Conj,Void,1 attack 1 HP. Gen-Z Automaton attacks at the begining of each turn. If no spells were cast last turn Gen-Z Automaton gets +3 attack until end of turn.
-Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics Refresh, and the next round starts with the amount of mana it would have normally started at)"
-Silhouette ,5,Gladr-Hex,Silver,You are warded
-Jeering Simii,3,Galdr-Conj,Delirium,1/3. Reproachful Simii attacks target player whenever they discard a card. You cannot be attacked as long as you own Reproachful Simii
-Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
-Misery's Company,2,Galdr-Hex,Delirium,"At the end your turn, each Mystic discards a card"
-Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at end of turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
-Delusion,2,Re-Can,Delirium,Void target cast by another Mystic. That Mystic reveals the top card of their reserves and if it shares the same type (galdr or cantrip) casts it without paying its mana cost.
-Methodical Madness,1,Galdr-Jinx,Delirium,"Once, on each of your turns, you may discard a card, if you do, draw a card."
-Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or more mana.
-Whither the Weak,2,Pro-Can,Delirium,Each Mystic with 2 or less cards in hand discards a card and loses 3 life
-Putrid Flies,3,Galdr-Conj,Delirium,1/1. Putried Flies may attack target Mystic whenever a card enters their hollows
-Swarm of Sickness,2,Pro-Can,Delirium,"If you own a Fly conjuration, create 4 copies of that conjuration."
-Maggotting Flies,4,Galdr-Conj,Delirium,"Whenever another conjuration takes damage, create a copy of Maggotting Flies. Maggotting Flies may attack at the end of your turn."
-Rotting Lands,3,Galdr-Hex,Delirium,At the end of your turn create a copy of a Fly conjuration you own.
-Swarming Flies,4,Galdr-Conj,Delirium,1/1. Copy this spell for each charge counter on it. Swarming Flies attacks whenver a non-Fly conjuration enters play. Swarming flies take no damage from defending conjurations when attackingthat conjuration.
-Lord of the Flies,6,Galdr-Conj,Delirium,"0/1. Lord of the Flies gets +1 attack for each other fly you own. Whenever a fly you own attacks a target, all other flies you own attack that target as well."
-Crazed Mind,2,Pro-Can,Delirium,"Each Mystic discards a card. If you have discarded at least two cards this turn, draw a card."
-Know Your Enemy,2,Re-Can,Divination,"Void target spell. Cast only if you can correctly name two cards in the casters' hand or chamber. They must reveal their hand and chamber to you(if they have only 1 card, name that card correctly. If they have 0 you do not need to name any)"
-Mind Read,2,Galdr-Jinx,Divination,"Whenever jinxed Mystic draws a card, they must reveal it to you. Draw a card if one or more charge counters on Mind Read"
-Master of Deduction,3,Galdr,Divination,For every card in target Mystic's hand or chamber name a card. Then that Mystic reveals all cards in their hand or chamber. For every card you correctly name they lose 3 life.
-Point of Mind,2,Pro-Can,Divination,"Draw a card. If you own looked at a card in another Mystic's hand or chamber this turn, deal 2 damage to any target and draw an additional card."
-Frozen in Time,1,Pro-Can,Ice-Divination,"Look at up to three cards in target Mystics chamber. Freeze 1 of them. If that Mystic already had a frozen card, draw a card."
-Numbing Crystal,1,Galdr-Jinx,Ice,Target Mystic places two cards at random from their hand face down underneath Numbing Crystal. Return these cards to their hand when Numbing Crystal leaves play.
 Oblivion,6,Hol-Can,Void,"Void all active spells, Destroy all conjurations, expunge all hexes."
-Buzz Kill,3,Hol-Can,Delirium,"Void target spell, destroy target conjuration, or expunge target hex. Cast only if you own two or more flies."
-Depressing Rejection,2,Re-Can,Delirium,"Void target spell, if you do, lose life equal to its mana cost. Each Mystic discards a card."
-Frosty Rejection,2,Re-Can,Ice,"Void target spell, if you do, put it into its caster's chamber, frozen. (if the chamber is full put it into its casters hollows)"
-Beasts' Rejection,2,Re-Can,Druidic,"As an additional cost to cast this spell, destroy target conjuration you own. Void target spell."
-Insight's Rejection,2,Re-Can,Divination,"Void target spell. The spells caster reveals the top card of their reserves, and puts it into their hand"
-Benthic Rejection,2,Re-Can,Deep,Void target spell. The spells caster draws 2 cards.
-Train of Thought,5,Galdr,Divination,"Name a card, then reveal the top card of your reserves, if it has the same name as the card you named, you may cast it without paying its cost, then repeat this process."
-Mental Disorder,2,Pro-Can,Divination,"Target Opponent reveals their hand, choose 1 card and put it on the bottom of their reserves"
-Cerebral Pressure,3,Galdr-Hex,Divination,"Whenever another Mystic reveals any number of cards to you, they lose that much life."
-Excitable Euron,3,Galdr-Conj,Divination,1/3. Can attack at end of turn if a card was revealed to you this turn. Gets +1 attack for every card revealed to you this turn.
-Progression,2,Galdr,Divination,"reveal the top 5 cards of your reserves to yourself. Put one into your hand, two on the top of your reserves, and two on the bottom of you reserves in any order."
-Thought Experiment,4,Galdr,Divination,"Target opponent reveals 3 cards from their hand to you, you may cast 1 card without paying its mana cost. That opponent draws a card."
-Mind Explosion,7,Galdr-Hex,Divination,"Whenever a Mystic reveals a card, that card stays revealed until the end of the round. Mystics may reveal a previously unrevealed card from their hand or chamber to cast an unrevealed card from their chamber or hand without paying its mana cost."
