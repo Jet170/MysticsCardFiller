@@ -1,4 +1,3 @@
-Names,Cost,Card Type,Magic Type,Text
 Skip to my Lou Reed,6,Galdr,Arcane,Skip target player's turn. If this card has two or more charge counters on it remove all charge counters from that players chambered cards
 Maleficent's Curse,9,Galdr,Arcane,Cursed character dies if they lose a match. 
 Up the Stakes,8,Galdr,Arcane,Whoever has a higher life total at the end of this round wins the match. Gain life equal to the number of charge counters on this card
@@ -7,18 +6,45 @@ Gravitational Shift,7,Galdr-Hex,Arcane,"All spells now cost 7-x where x is the s
 Rework Leylines,4,Galdr,Ch'i,"Expunge all hexes on the board, then create a hex that targeting you for each hex destroyed this way. You may choose to not recreate a hex for each charge counter on this card"
 Flow with the Aether,4,Galdr-Hex,Ch'i,Cantrips hexed player casts cost 1 less to cast. 
 Third Eye,4,Galdr-Hex,Ch'i,Hexed player gets +1 Chamber slot. Hexed player may chamber one card for each charge counter on Third Eye
-Support Magic,3,Pro-Can,Ch'i,"Gain 1 health, add 1 charge counter to a chambered spell, draw 1 card"
+Support Magic,1,Pro-Can,Ch'i,"Gain 1 health, add 1 charge counter to a chambered spell, draw 1 card"
 Open Chakras,3,Pro-Can,Ch'i,Expunge target hex
 Sheer Will,1,Pro-Can,Ch'i,Spells you control can't be voided until the end of turn. Draw a card. 
+Strength of Mind,3,Galdr-Hex,Ch'i,"At the begining of your turn, draw a card."
+Life Control,2,Hol-Can,Ch'i,"Until end of turn, your life total can not change"
+Until Later,2,Pro-Can,Ch'i,"Draw 2 cards, put 1 card from your hand on the bottom of your reserves"
+Spirit's Strength,1,Pro-Can,Ch'i,Put target card from your hollows on top of your reserves
+Maximum Efficiency,4,Galdr-Hex,Ch'i,"At the end of your turn, draw two cards if you cast exactly 2 spells that turn"
+Mind's Vastness,2,Galdr-Hex,Ch'i,"You have no handsize, draw a card if two or more charge counters on Mind's Vastness"
+Rebirth,5,Galdr,Ch'i,Change your life total to your starting life total
+Energy Stores,4,Gladr-Hex,Ch'i,~ retains its charge counters when activated. You may pay 1 mana to put a charge counter on this card. Remove a charge counter to add 1 mana.
+Self Mastery,2,Pro-Can,Ch'i,Void target spell. Cast only if you own 2 or more hexes.
+Runic Ovisa,3,Galdr-Conj,Ch'i,0 attack 4 HP. Runic Ovisa counts as a hex. You are warded.
+First Cache,1,Galdr-Hex,Ch'i,Expunge First Cache at any time to add 3 mana. Spend this mana only to cast hex spells.
+This will Happen,1,Pro-Can,Ch'i,Void target spell that's targeting a spell you own.
+Sixth Year Engravings,6,Galdr-Hex,Ch'i,Whenever you cast a hex spell deal damage to any target equal to the amount of hexes you own.
+Look Within,2,Pro-Can,Ch'i,"Search your reserves for a hex card, reveal it, and put it into your hand. Shuffle your reserves."
+Preparation,1,Pro-Can,Ch'i,"Look at the top 3 cards of your reserves, put them back in any order"
+Fifth Year Engravings,5,Galdr-Hex,Ch'i,"Copy this spell for each charge counter on it. You may expunge Fifth Year Engraving to prevent up to 3 damage, deal 1 damage to any target, or draw a card."
+Betterment,2,Galdr-Hex,Ch'i,Increase your chamber size by 1 slot
+Hexed Canid,3,Galdr-Conj,Ch'i,"1 attack, 2 HP. Hexed Canid gets +1 attack for every hex in play. At the end of your tun Hexed Canid attacks the Mystic that owns the least amount of hexes."
+Acclimation,3,Galdr-Hex,Ch'i,"Whenever a hex enters play targeting you, draw a card."
+Proactive Strike,2,Hol-Can,Ch'i,Draw a card. If you own a hex deal 3 damage to any target
+First Year Engravings,1,Galdr-Hex,Ch'i,Whenever a hex enters play that you own gain 1 life
+Eased Introspection,4,Galdr-Hex,Ch'i,Hexed player may cast Galdr-Hexes as Pro-Cans.
+Weaponized Schemas,7,Galdr-Hex,Ch'i,Hexes you control become Conjuratoins with attack/HP equal to their mana costs. These Hexes attack whenever another hex enters the battlefield under your control
+Eighth Year Engravings,8,Galdr-Hex,Ch'i,You may expunge a hex you own to put a hex from your hand into play.
+Second Year Engravings,2,Galdr-Hex,Ch'i,"Whenever you chamber a card, you may reveal it. If revealed card is a Hex, put a charge counter on it. "
+Third Year Engravings,3,Galdr-Hex,Ch'i,"At the begining of your turn add 3 mana, spend this mana only on hex spells."
+Fourth Year Engravings,4,Galdr-Hex,Ch'i,"At the end of your turn, create a 1/1 Hex Canid that may attack at the beginning of your turn. "
 Upswell,2,Galdr,Deep,Each Mystic draws 2 cards. Draw a card for each charge counter on Upswell
 Grasping Tentacles,3,Galdr-Hex,Deep,"Whenever a Mystic would draw a card aside from their end of round draw phase, instead they draw two cards"
 Riptide,2,Galdr,Deep,Each Mystic draws a card for each charge counter on Riptide. Target Mystic loses life equal to the number of cards in their hand. 
-Tidal Flow,2,Pro-Can,Deep,Each Mystic draws 4 cards then discards 3
+Tidal Flow,2,Pro-Can,Deep,Each Mystic draws 3 cards then discards 2
 Seeking Whale-Shark,4,Galdr-Conj,Deep,4 attack 2 HP. Whenever a Mystic draws one or more cards Seeking Whale-Shark may attack that Mystic
-Apex Predation,4,Pro-Can,Deep,The Mystic with the most cards in hand draws 2 cards and gains 5 mana
+Apex Predation,4,Pro-Can,Deep,The Mystic with the most cards in hand draws 1 cards and gains 5 mana
 Rejection from the Depths,3,Re-Can,Deep,Void target spell cast by a Mystic with four or more cards in hand
 Blackwater,2,Pro-Can,Deep,Draw 1 card. Deal x damage where x is the number of cards you have drawn this turn.
-Current Tides,1,Galdr-Hex,Deep,"Whenever the hexed Mystic draws a card you draw a card as well. Any Mystic may pay x mana to expunge Current Tides, where x is 5 plus the number of charge counters on Current Tides."
+Current Tides,1,Galdr-Hex,Deep,"Hex Mystic other than yourself draws a card you draw a card as well. Any Mystic may pay x mana to expunge Current Tides, where x is 3 plus the number of charge counters on Current Tides."
 Tumultuous Flow,3,Re-Can,Deep,Change the target of target spell to any target.
 Kraken's Wrath,8,Galdr,Deep,This spell costs 1 mana less for each card you have drawn this turn. Deal 8 damage to up to 8 targets.
 Gushing Anozoa,3,Galdr-Conj,Deep,2 attack 1 HP. When you cast this spell destroy each non-Deep beast with power less than the number of cards you have drawn this turn. Gushing Anozoa attacks target attacking beast whenever the beast attacks you
@@ -41,9 +67,9 @@ Burden of Atlas,5,Galdr-Hex,Delirium,Hexed player must pay an additional mana fo
 Grip of fear,3,Galdr-Hex,Delirium,At the begining of the hexed players turn they take 1 damage for every chambered card they have. Break 1 chambered card if this card has one or more charge counters on it
 Mental limiter,4,Galdr-Hex,Delirium,Hexed player's chamber size is reduced by 1
 Ambrosia of Darkness,4,Pro-Can,Delirium,Gain control of target Conjuration
-Expand Mind,4,Galdr-Hex,Divination,"Increase your chamber size by 2, discard two cards"
+Expand Mind,4,Galdr-Hex,Divination,Increase your chamber size by 2. Look at target Mystics chambered cards if one or more charge counters are on this card.
 Empathetic Coupling,4,Galdr-Hex,Divination,You can look at hexed player's chambered spells at any time
-Precision Strike,4,Pro-Can,Divination,Look at target player's chambered cards. Break 1 target chambered card. 
+Precision Strike,3,Pro-Can,Divination,Look at target player's chambered cards. Break 1 target chambered card. 
 See Through,1,Pro-Can,Divination,"Look at target player's chambered cards, draw a card"
 Flash of Insight,0,Pro-Can,Divination,"Look at up to two cards in target player's hand, and or their chambered cards, draw a card"
 Knowledge Puddle,1,Re-Can,Divination,"As an additional cost to cast this spell reveal any number of cards from your hand, void target Pro-Can unless the caster reveals more cards from their hand than you revealed this way"
@@ -58,7 +84,7 @@ Nature's Roar,2,Pro-Can,Druidic,All beasts you own attack
 Grand Hunt,1,Pro-Can,Druidic,"Until end of turn, all hexes are considered beasts with 0 attack and 1 HP. Draw a card."
 Canid,2,Galdr-Conj,Druidic,"1 attack, 2 HP. Canid gets +1 attack for every other beast you control. Whenever another beast you control attacks a target Canid can attack that same target."
 Life's Flow,2,Pro-Can,Druidic,Until end of turn gain 1 charge counter whenever a beast attacks. Draw a card
-Hidden Strength,1,Hol-Can,Druidic,Target beast you control gets +x attack and +x HP where x is 2 + the number of charge counters on Hidden Strength
+Hidden Strength,1,Hol-Can,Druidic,Target beast you control gets +x attack and +x HP where x is 2 + the number of charge counters on Hidden Strength *This spell can be cast face down from the chamber*
 Feed,2,Pro-Can,Druidic,Deal 3 damage to any target that was damaged this turn by a beast that you own. Gain 3 life.
 Momentum,1,Galdr,Energy,"Deal 1 damage, draw 1 card, put 1 charge counters on 1 chambered card, activate 1 chambered Galdr"
 Momentum Abstraction,2,Galdr,Energy,Move all charge counters from another players chambered card to your chambered card. Draw two cards if there are two or more charge counters on this card
@@ -100,7 +126,7 @@ Brain Thaw,4,Pro-Can,Ice,2 target chambered spells don't activate at the beginnn
 Diffuse,2,Pro-Can,Ice,Break a chambered card
 Stun,3,Pro-Can,Ice,"Deal 2 damage, Freeze target player's chambered cards"
 Sinoie's Ire,4,Galdr-Hex,Silver,Hexed Mystic loses the match if they would draw a card and their reserves are empty.
-Black Hole,10,Galdr,Silver,Target Mystic fades their entire reserves.
+Black Hole Sun,10,Galdr,Silver,Target Mystic fades their entire reserves.
 New Moon,2,Galdr,Silver,Shuffle up to 6 cards from your hollows into your reserves. If there are three or more charge counters on this card instead put them on top of your reserves in any order
 Geists' Visit,3,Galdr,Silver,"Return up to two target cards from target player's hollows to their hands, they lose life equal to the sum of the two mana costs. Prevent 2 damage from this card for each charge counter on it"
 Shadows' Rise,5,Galdr-Hex,Silver,Hexed player may pay 1 mana and discard a card from their hand to return a card from the hollows to their hand. Hexed player moves a card from their reserve to the hollows for each charge counter on this card
@@ -108,7 +134,7 @@ Stress of the Black Moon,6,Galdr-Hex,Silver,All of hexed players proactive cantr
 Unnerve,2,Pro-Can,Silver,"Deal 3 damage to target Mystic, they fade 3"
 Night's Dance,2,Re-Can,Silver,"Fade x, void target Galdr with mana cost of x"
 Moon's Favor,7,Galdr,Silver,Hexed player wins the game if they would draw a card and their reserves are empty
-Night's Unveiling,6,Galdr,Silver,You may put up to two hexes from your hollows into play. Must have at least 2 charge counters.
+Night's Unveiling,6,Galdr,Silver,You may put up to from your hollows into play. Must have at least 2 charge counters.
 Jest of Darkness,1,Re-Can,Silver,Switch target reactive cantrip with target cantrip in that player's hollows
 Expire,1,Pro-Can,Silver,"Search your library for a card, put the card in your hollows, shuffle your library"
 Cast Shadows,5,Galdr,Silver,Create a shadow beast thats a copy of any number of beasts target player owns. Deal 1 damage to beasts for each charge counter on this card
@@ -126,9 +152,9 @@ Swallow of Darkness,2,Re-Can,Silver,Prevent all damage that target spell or atta
 Fraying Reality,2,Galdr-Hex,Silver,When you cast this spell hexed Mystic loses 2 mana for each charge counter on Fraying Reality. Hexed player fades 6 whenever they have go down to 0 mana.
 Compulsory removal,3,Galdr,Void,"Expunge up to 3 hexes and or curses, deal 3 damage reduced by 1 for each charge counter on this card to each player affected by this card"
 Counter Magic,2,Re-Can,Void,"Reduce another player's spell that is damaging you by two damage, deal 2 damage to that player"
-Denial,2,Re-Can,Void,"Void target cantrip, *This spell can only be Cast from the chamber*"
+Denial,2,Re-Can,Void,"Void target cantrip, *This spell can only be Cast face down from the chamber*"
 Imperfect Negation,0,Re-Can,Void,Void target spell unless the spell's caster discards cards equal to the number of charge counters on this card
-Voidspell,3,Re-Can,Void,Void target spell
+Voidspell,2,Re-Can,Void,Void target spell
 Numb,2,Pro-Can,Void,Remove up to 4 charge counters from your opponents cards
 Counter Force,6,Galdr-Hex,Void,Hexed player may tuck a card to deal 2 damage or prevent 2 damage any time they could cast a reactive cantrip
 Negative Image,2,Galdr,Void,Pick target conjuration opponent controls. Create a conjuration with attack equal to that conjuration's HP and HP equal to that conjuration's attack.
@@ -138,33 +164,43 @@ Heart's Cowardice,3,Galdr,Void,"Break up to three chambered cards. those cards g
 Inverted Pendulum,2,Re-Can,Void,Opponent fades cards equal to the amount of damage you took this turn. Draw a card. 
 Extracted Essence,2,Pro-Can,Void,Expunge target Conjuration. 
 Spell Refraction,3,Re-Can,Void,Change target of target spell. New target must be valid. 
-Mental Lapse,2,Galdr-Hex,Void,Players cannot draw cards until the end of the round. Expunge at end of the round
+Neural Interruption,4,Galdr-hex,Void,Mystics cannot draw cards.
 Rule of Six,6,Galdr-Hex,Void,Spells with mana costs of 6 or greater can't be cast
 Gen-Z Automaton,2,Galdr-Conj,Void,1 attack 1 HP. Gen-Z Automaton attacks at the begining of each turn. If no spells were cast last turn Gen-Z Automaton gets +3 attack until end of turn.
-Strength of Mind,3,Galdr-Hex,Ch'i,"At the begining of your turn, draw a card."
-Life Control,2,Hol-Can,Ch'i,"Until end of turn, your life total can not change"
-Until Later,2,Pro-Can,Ch'i,"Draw 2 cards, put 1 card from your hand on the bottom of your reserves"
-Spirit's Strength,1,Pro-Can,Ch'i,Put target card from your hollows on top of your reserves
-Maximum Efficiency,4,Galdr-Hex,Ch'i,"At the end of your turn, draw two cards if you cast exactly 2 spells that turn"
-Mind's Vastness,2,Galdr-Hex,Ch'i,"You have no handsize, draw a card if two or more charge counters on Mind's Vastness"
-Rebirth,5,Galdr,Ch'i,Change your life total to your starting life total
-Energy Stores,4,Gladr-Hex,Ch'i,~ retains its charge counters when activated. You may pay 1 mana to put a charge counter on this card. Remove a charge counter to add 1 mana.
-Self Mastery,2,Pro-Can,Ch'i,Void target spell. Cast only if you own 1 or more hexes targeting yourself.
-Runic Ovisa,3,Galdr-Conj,Ch'i,0 attack 4 HP. Runic Ovisa counts as a hex. You are warded.
-First Cache,1,Galdr-Hex,Ch'i,Expunge First Cache at any time to add 3 mana. Spend this mana only to cast hex spells.
-This will Happen,1,Pro-Can,Ch'i,Void target spell that's targeting a spell you own.
-A Burning Yearning,5,Galdr-Hex,Ch'i,Whenever you cast a hex spell deal damage to any target equal to the amount of hexes you own.
-Look Within,2,Pro-Can,Ch'i,"Search your reserves for a hex card, reveal it, and put it into your hand. Shuffle your reserves."
-Preparation,1,Pro-Can,Ch'i,"Look at the top 3 cards of your reserves, put them back in any order"
-Fifth Year Engravings,5,Galdr-Hex,Ch'i,"Copy this spell for each charge counter on it. You may expunge Fifth Year Engraving to prevent up to 3 damage, deal 1 damage to any target, or draw a card."
-Betterment,2,Galdr-Hex,Ch'i,Increase your chamber size by 1 slot
-Hexed Canid,3,Galdr-Conj,Ch'i,"1 attack, 2 HP. Hexed Canid gets +1 attack for every hex in play. At the end of your tun Hexed Canid attacks the Mystic that owns the least amount of hexes."
-Acclimation,3,Galdr-Hex,Ch'i,"Whenever a hex enters play targeting you, draw a card."
-Proactive Strike,2,Hol-Can,Ch'i,Draw a card. If you own a hex deal 3 damage to any target
-First Year Engravings,1,Galdr-Hex,Ch'i,Whenever a hex enters play that you own gain 1 life
-Eased Introspection,4,Galdr-Hex,Ch'i,Hexed player may cast Galdr-Hexes as Pro-Cans.
-Weaponized Schemas,7,Galdr-Hex,Ch'i,Hexes you control become Conjuratoins with attack/HP equal to their mana costs. These Hexes attack whenever another hex enters the battlefield under your control
-Eighth Year Engravings,8,Galdr-Hex,Ch'i,You may expunge a hex you own to put a hex from your hand into play.
-Second Year Engravings,2,Galdr-Hex,Ch'i,"Whenever you chamber a card, you may reveal it. If revealed card is a Hex, put a charge counter on it. "
-Third Year Engravings,3,Galdr-Hex,Ch'i,"At the begining of your turn add 3 mana, spend this mana only on hex spells."
-Fourth Year Engravings,4,Galdr-Hex,Ch'i,"At the end of your turn, create a 1/1 Hex Canid that may attack at the beginning of your turn. "
+Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics Refresh, and the next round starts with the amount of mana it would have normally started at)"
+Silhouette ,5,Gladr-Hex,Silver,You are warded
+Jeering Simii,3,Galdr-Conj,Delirium,1/3. Reproachful Simii attacks target player whenever they discard a card. You cannot be attacked as long as you own Reproachful Simii
+Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
+Misery's Company,2,Galdr-Hex,Delirium,"At the end your turn, each Mystic discards a card"
+Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at end of turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
+Delusion,2,Re-Can,Delirium,Void target cast by another Mystic. That Mystic reveals the top card of their reserves and if it shares the same type (galdr or cantrip) casts it without paying its mana cost.
+Methodical Madness,1,Galdr-Jinx,Delirium,"Once, on each of your turns, you may discard a card, if you do, draw a card."
+Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or more mana.
+Whither the Weak,2,Pro-Can,Delirium,Each Mystic with 2 or less cards in hand discards a card and loses 3 life
+Putrid Flies,3,Galdr-Conj,Delirium,1/1. Putried Flies may attack target Mystic whenever a card enters their hollows
+Swarm of Sickness,2,Pro-Can,Delirium,"If you own a Fly conjuration, create 4 copies of that conjuration."
+Maggotting Flies,4,Galdr-Conj,Delirium,"Whenever another conjuration takes damage, create a copy of Maggotting Flies. Maggotting Flies may attack at the end of your turn."
+Rotting Lands,3,Galdr-Hex,Delirium,At the end of your turn create a copy of a Fly conjuration you own.
+Swarming Flies,4,Galdr-Conj,Delirium,1/1. Copy this spell for each charge counter on it. Swarming Flies attacks whenver a non-Fly conjuration enters play. Swarming flies take no damage from defending conjurations when attackingthat conjuration.
+Lord of the Flies,6,Galdr-Conj,Delirium,"0/1. Lord of the Flies gets +1 attack for each other fly you own. Whenever a fly you own attacks a target, all other flies you own attack that target as well."
+Crazed Mind,2,Pro-Can,Delirium,"Each Mystic discards a card. If you have discarded at least two cards this turn, draw a card."
+Know Your Enemy,2,Re-Can,Divination,"Void target spell. Cast only if you can correctly name two cards in the casters' hand or chamber. They must reveal their hand and chamber to you(if they have only 1 card, name that card correctly. If they have 0 you do not need to name any)"
+Mind Read,2,Galdr-Jinx,Divination,"Whenever jinxed Mystic draws a card, they must reveal it to you. Draw a card if one or more charge counters on Mind Read"
+Master of Deduction,3,Galdr,Divination,For every card in target Mystic's hand or chamber name a card. Then that Mystic reveals all cards in their hand or chamber. For every card you correctly name they lose 3 life.
+Point of Mind,2,Pro-Can,Divination,"Draw a card. If you own looked at a card in another Mystic's hand or chamber this turn, deal 2 damage to any target and draw an additional card."
+Frozen in Time,1,Pro-Can,Ice-Divination,"Look at up to three cards in target Mystics chamber. Freeze 1 of them. If that Mystic already had a frozen card, draw a card."
+Numbing Crystal,1,Galdr-Jinx,Ice,Target Mystic places two cards at random from their hand face down underneath Numbing Crystal. Return these cards to their hand when Numbing Crystal leaves play.
+Oblivion,6,Hol-Can,Void,"Void all active spells, Destroy all conjurations, expunge all hexes."
+Buzz Kill,3,Hol-Can,Delirium,"Void target spell, destroy target conjuration, or expunge target hex. Cast only if you own two or more flies."
+Depressing Rejection,2,Re-Can,Delirium,"Void target spell, if you do, lose life equal to its mana cost. Each Mystic discards a card."
+Frosty Rejection,2,Re-Can,Ice,"Void target spell, if you do, put it into its caster's chamber, frozen. (if the chamber is full put it into its casters hollows)"
+Beasts' Rejection,2,Re-Can,Druidic,"As an additional cost to cast this spell, destroy target conjuration you own. Void target spell."
+Insight's Rejection,2,Re-Can,Divination,"Void target spell. The spells caster reveals the top card of their reserves, and puts it into their hand"
+Benthic Rejection,2,Re-Can,Deep,Void target spell. The spells caster draws 2 cards.
+Train of Thought,5,Galdr,Divination,"Name a card, then reveal the top card of your reserves, if it has the same name as the card you named, you may cast it without paying its cost, then repeat this process."
+Mental Disorder,2,Pro-Can,Divination,"Target Opponent reveals their hand, choose 1 card and put it on the bottom of their reserves"
+Cerebral Pressure,3,Galdr-Hex,Divination,"Whenever another Mystic reveals any number of cards to you, they lose that much life."
+Excitable Euron,3,Galdr-Conj,Divination,1/3. Can attack at end of turn if a card was revealed to you this turn. Gets +1 attack for every card revealed to you this turn.
+Progression,2,Galdr,Divination,"reveal the top 5 cards of your reserves to yourself. Put one into your hand, two on the top of your reserves, and two on the bottom of you reserves in any order."
+Thought Experiment,4,Galdr,Divination,"Target opponent reveals 3 cards from their hand to you, you may cast 1 card without paying its mana cost. That opponent draws a card."
+Mind Explosion,7,Galdr-Hex,Divination,"Whenever a Mystic reveals a card, that card stays revealed until the end of the round. Mystics may reveal a previously unrevealed card from their hand or chamber to cast an unrevealed card from their chamber or hand without paying its mana cost."
