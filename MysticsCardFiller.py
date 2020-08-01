@@ -171,6 +171,8 @@ def createCockatriceXML():
         manacost.text = dataCard['Mana']
         cmc = ET.SubElement(prop, 'cmc')
         cmc.text = dataCard['Mana']
+        colors = ET.SubElement(prop, 'colors')
+        colors.text = dataCard['MagicType']
         set = ET.SubElement(xmlCard, 'set')
         set.set('picurl', picURL + '/' + dataCard['Name'].replace(' ', '%20') + '.png')
         set.text=setShortName

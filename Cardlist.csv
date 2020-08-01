@@ -6,7 +6,7 @@ Chromatic Orb,3,Galdr-Hex,Arcane,"Hexed player chooses a magic type, spells cast
 Gravitational Shift,7,Galdr-Hex,Arcane,"All spells now cost 7-x where x is the spells original mana cost, with a minimum cost of 0. "
 Rework Leylines,4,Galdr,Ch'i,"Expunge all hexes on the board, then create a hex that targeting you for each hex destroyed this way. You may choose to not recreate a hex for each charge counter on this card"
 Flow with the Aether,4,Galdr-Hex,Ch'i,Cantrips hexed player casts cost 1 less to cast. 
-Third Eye,4,Galdr-Hex,Ch'i,Hexed player gets +1 Chamber slot. Hexed player may chamber one card for each charge counter on Third Eye
+Third Eye,3,Galdr-Hex,Ch'i,Hexed player gets +1 Chamber slot and +1 hand size. Hexed player may chamber one card for each charge counter on Third Eye
 Support Magic,1,Pro-Can,Ch'i,"Gain 1 health, add 1 charge counter to a chambered spell, draw 1 card"
 Open Chakras,3,Pro-Can,Ch'i,Expunge target hex
 Sheer Will,1,Pro-Can,Ch'i,Spells you control can't be voided until the end of turn. Draw a card. 
@@ -28,7 +28,7 @@ Preparation,1,Pro-Can,Ch'i,"Look at the top 3 cards of your reserves, put them b
 Fifth Year Engravings,5,Galdr-Hex,Ch'i,"Copy this spell for each charge counter on it. You may expunge Fifth Year Engraving to prevent up to 3 damage, deal 1 damage to any target, or draw a card."
 Betterment,2,Galdr-Hex,Ch'i,Increase your chamber size by 1 slot
 Hexed Canid,3,Galdr-Conj,Ch'i,"1 attack, 2 HP. Hexed Canid gets +1 attack for every hex in play. At the end of your tun Hexed Canid attacks the Mystic that owns the least amount of hexes."
-Acclimation,3,Galdr-Hex,Ch'i,"Whenever a hex enters play targeting you, draw a card."
+Acclimation,3,Galdr-Hex,Ch'i,"Whenever another hex enters play targeting you, draw a card."
 Proactive Strike,2,Hol-Can,Ch'i,Draw a card. If you own a hex deal 3 damage to any target
 First Year Engravings,1,Galdr-Hex,Ch'i,Whenever a hex enters play that you own gain 1 life
 Eased Introspection,4,Galdr-Hex,Ch'i,Hexed player may cast Galdr-Hexes as Pro-Cans.
@@ -70,7 +70,7 @@ Grip of fear,3,Galdr-Hex,Delirium,At the begining of the hexed players turn they
 Mental limiter,4,Galdr-Hex,Delirium,Hexed player's chamber size is reduced by 1 (This does not break any chambered cards that they might have)
 Ambrosia of Darkness,4,Pro-Can,Delirium,Gain control of target Conjuration
 Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics Refresh, and the next round starts with the amount of mana it would have normally started at)"
-Jeering Simii,3,Galdr-Conj,Delirium,1/3. Reproachful Simii attacks target player whenever they discard a card. You cannot be attacked by conjurations as long as you own Reproachful Simii
+Jeering Simii,3,Galdr-Conj,Delirium,1/3. Jeering Simii attacks target player whenever they discard a card. You cannot be attacked by conjurations as long as you own Jeering Simii
 Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
 Misery's Company,2,Galdr-Hex,Delirium,At the begining of each Mystic's turn that player discards a card.
 Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at end of turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
@@ -80,9 +80,9 @@ Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or
 Whither the Weak,2,Pro-Can,Delirium,Each Mystic with 2 or less cards in hand discards a card and loses 3 life
 Putrid Flies,3,Galdr-Conj,Delirium,1/1. Putried Flies may attack target Mystic whenever a card enters their hollows
 Swarm of Sickness,2,Pro-Can,Delirium,"If you own a Fly conjuration, create 4 copies of that conjuration."
-Maggotting Flies,4,Galdr-Conj,Delirium,"Whenever another conjuration takes damage, create a copy of Maggotting Flies. Maggotting Flies may attack at the end of your turn."
+Maggotting Flies,4,Galdr-Conj,Delirium,"1/1. Whenever another conjuration takes damage, create a copy of Maggotting Flies. Maggotting Flies may attack at the end of your turn."
 Rotting Lands,3,Galdr-Hex,Delirium,At the end of your turn create a copy of a Fly conjuration you own.
-Swarming Flies,4,Galdr-Conj,Delirium,1/1. Copy this spell for each charge counter on it. Swarming Flies attacks whenver a non-Fly conjuration enters play. Swarming flies take no damage from defending conjurations when attackingthat conjuration.
+Swarming Flies,4,Galdr-Conj,Delirium,1/1. Copy this spell for each charge counter on it. Swarming Flies attacks whenver a non-Fly conjuration enters play. Swarming flies take no damage from defending conjurations when attacking that conjuration.
 Lord of the Flies,6,Galdr-Conj,Delirium,"0/1. Lord of the Flies gets +1 attack for each other fly you own. Whenever a fly you own attacks a target, all other flies you own attack that target as well."
 Crazed Mind,2,Pro-Can,Delirium,"Each Mystic discards a card. If you have discarded at least two cards this turn, draw a card."
 Buzz Kill,3,Hol-Can,Delirium,"Void target spell, destroy target conjuration, or expunge target hex. Cast only if you own two or more flies."
@@ -147,7 +147,7 @@ Channel the Heat,2,Pro-Can,Fire,Gain charge counters equal to the amount of dama
 Shackled Anger,1,Pro-Can,Fire,Deal Damage to any target equal to the sum of the mana costs of the hexes that are targeting you. Draw a card. 
 Energy Burn,3,Pro-Can,Fire,"Remove any number of charge counters from your chambered spells, deal 2 damage for each counter removed this way"
 Emotional Meltdown,4,Pro-Can,Fire,"All players discard 4 cards, take 4 damage, and lose 4 energy counters. "
-Fingers of Flame,3,Galdr-Hex,Fire,Whenever you place a charge counter on one of your cards deal 1 damage
+Fingers of Flame,3,Galdr-Hex,Fire,Whenever you place any number of charge counter on one of your cards deal that damage to each opponent
 Overwhelming Heat,1,Re-Can,Fire,Void target spell with mana cost less than or equal to the total amount of damage dealt this turn.
 Melting Will,1,Pro-Can,Fire,Deal 2 damage to target player. If that player has lost 5 or more life this turn expunge target hex they own.
 Crisp,3,Pro-Can,Fire,"Deal 3 damage to any target. If a player is dealt damage this way, they fade x where x is the amount of life they have lost this turn."
@@ -180,11 +180,11 @@ Total Darkness,2,Galdr-Hex,Silver,Reaction cantrips cannot be cast
 Second Sunset,2,Pro-Can,Silver,Fade 3. Return target Galdr from your hollows to your hand
 Death's Parting,4,Galdr,Silver,"Target opponent fades 2, you may cast a hex or Conjuration from their hollows without paying its mana cost"
 Antipathetic Angles,1,Galdr,Silver,Fade 2. Target opponent loses life equal to the amount of cards that have been put into your hollows this turn. Draw a card if two or more charge counters.
-Nights' Devotion,5,Galdr,Silver,"Fade 1 for each charge counter. Each player loses 10 - x life, where x is the number of cards in their hollows."
+Nights' Devotion,3,Galdr,Silver,"Fade 1 for each charge counter. Each player loses 10 - x life, where x is the number of cards in their hollows."
 Pained Reunions,1,Pro-Can,Silver,Each player returns a card from their hollows to their hand. Each opponent loses 4 life
 Night Reptus,3,Galdr,Silver,6 attack 4 HP. Night Reptus can attack whenever a Mystics fades 1 or more cards. It can only attack if you have 15 or more cards in your hollows. When you cast this spell fade 1 for each charge counter on Night Reptus
 Corpse Genesis,1,Galdr,Silver,Put target conjuration from a hollows into play under your control. You lose life equal to the conjuration's attack value
-Swallow of Darkness,2,Re-Can,Silver,Prevent all damage that target spell or attack would deal. Instead fade that many cards
+Swallow of Darkness,2,Hol-Can,Silver,Prevent all damage that target spell or attack would deal. Instead fade that many cards
 Fraying Reality,2,Galdr-Hex,Silver,When you cast this spell hexed Mystic loses 2 mana for each charge counter on Fraying Reality. Hexed player fades 6 whenever they have go down to 0 mana.
 Silhouette ,5,Gladr-Hex,Silver,You are warded
 Compulsory removal,3,Galdr,Void,"Expunge up to 3 hexes and or curses, deal 3 damage reduced by 1 for each charge counter on this card to each player affected by this card"
@@ -205,3 +205,4 @@ Neural Interruption,4,Galdr-hex,Void,Mystics cannot draw cards.
 Rule of Six,6,Galdr-Hex,Void,Spells with mana costs of 6 or greater can't be cast
 Gen-Z Automaton,2,Galdr-Conj,Void,1 attack 1 HP. Gen-Z Automaton attacks at the begining of each turn. If no spells were cast last turn Gen-Z Automaton gets +3 attack until end of turn.
 Oblivion,6,Hol-Can,Void,"Void all active spells, Destroy all conjurations, expunge all hexes."
+Recall the Past,3,Pro-Can,Silver,You may cast target Galdr in your Hollows by paying its mana cost
