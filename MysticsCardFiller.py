@@ -10,13 +10,15 @@ import xml.etree.ElementTree as ET
 
 
 #File names, set names, urls, all that stuff that could change
-docname = "CardsForm.docx"
+docname = "./CardDocuments/CardsForm.docx"
 numCardsPerForm=8
-sheetname="Cardlist.csv"
-outputDocName='filledcards.docx'
-outputPDFName="filledcards.pdf"
-blankCardImage="Blank.png"
+sheetname="./CardDocuments/Cardlist.csv"
+outputDocName='./CardDocuments/filledcards.docx'
+outputPDFName="./CardDocuments/filledcards.pdf"
+blankCardImage="./CardDocuments/Blank.png"
 cardImageFolder='./CardImages/'
+cardArtFolder='./CardArt/'
+maskImagePath = './CardDocuments/ArtMask.png'
 xmlFile = 'MysticsSet1.xml'
 picURL = 'https://raw.githubusercontent.com/Jet170/MysticsCardFiller/master/CardImages'
 setShortName = 'MS1'
@@ -111,6 +113,7 @@ def createCardImages():
     #Magic coords depend on card type
     textFont = ImageFont.truetype("constan.ttf", 16)
     textCoords = [5, 205]
+    artCoords = (5, 50)
 
     # Read cards from csv
     carddata = readFromCSV()
@@ -135,7 +138,22 @@ def createCardImages():
        # Draw Card Text
        draw.multiline_text(textCoords, "\n".join(textwrap.wrap(card['Text'], width=33)), (0, 0, 0), textFont)
 
-       image.save(cardImageFolder + card['Name'] + '.png')
+       # Draw Card Art
+       # try:
+       #    art = Image.open(cardArtFolder + card['Name'] + '.png')
+       #    art = art.convert('RGBA')
+       #    mask = Image.open(maskImagePath)
+       #    im2 = image.copy()
+       #    im2.paste(art, artCoords)
+       #    im2.save(cardImageFolder + card['Name'] + '.png')
+       #    print('Mask Successful')
+       # except Exception as e:
+       #    print(e)
+       try:
+          image.save(cardImageFolder + card['Name'] + '.png')
+       except:
+           print('Name error on ' + card['Name'] + ', it contains an illegal character')
+
 
     print('Images saved to ' + cardImageFolder)
 
