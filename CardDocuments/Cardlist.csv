@@ -73,7 +73,7 @@ Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics R
 Jeering Simii,3,Galdr-Conj,Delirium,1/3. Jeering Simii attacks target player whenever they discard a card. You cannot be attacked by conjurations as long as you own Jeering Simii
 Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
 Misery's Company,2,Galdr-Hex,Delirium,At the begining of each Mystic's turn that player discards a card.
-Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at end of turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
+Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at the end of your turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
 Delusion,2,Re-Can,Delirium,Void target spell cast by another Mystic. That Mystic reveals the top card of their reserves and if it shares the same type (galdr or cantrip) casts it without paying its mana cost.
 Methodical Madness,1,Galdr-Jinx,Delirium,"Once, on each of your turns, you may discard a card, if you do, draw a card."
 Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or more mana.
@@ -176,7 +176,7 @@ Brain Freeze,2,Pro-Can,Ice,"Freeze 1 card, draw a card"
 Diffuse,2,Pro-Can,Ice,Break a chambered card
 Stun,3,Pro-Can,Ice,"Deal 2 damage to any target, Freeze target card"
 Numbing Crystal,1,Galdr-Jinx,Ice,Target Mystic reveals three cards at random from their hand and places them face down underneath Numbing Crystal. Return these cards to their hand when Numbing Crystal leaves play.
-Frosty Rejection,2,Re-Can,Ice,"Void target spell, if you do, put it into its caster's chamber, frozen. (if the chamber is full put it into its casters hollows) Its controller may draw a card."
+Frosty Rejection,2,Re-Can,Ice,"Void target spell, if you do, put it into its caster's chamber, frozen. (if the chamber is full put it into its casters hollows)"
 White Out,3,Galdr-Jinx,Ice,When White Out enters play expunge up to two target hexes or Jinxes and place them underneath White Out. When White Out leaves play return those cards to play.
 Blizzard,5,Galdr-Jinx,Ice,All non-Ice conjurations get -2/-2. Freeze all non-Ice conjurations if there are 4 or more charge counters on Blizzard.
 Hypothermia,4,Galdr-Hex,Ice,At the begining of hexed Mystic's turn they lose 2 life for each frozen card they own. Freeze a card if there are two or more charge counters on Hypothermia.
@@ -229,4 +229,10 @@ Spell Refraction,3,Re-Can,Void,Change target of target spell. New target must be
 Neural Interruption,4,Galdr-Hex,Void,Mystics cannot draw cards.
 Rule of Six,6,Galdr-Hex,Void,Spells with mana costs of 6 or greater can't be cast
 Gen-Z Automaton,2,Galdr-Conj,Void,1 attack 1 HP. Gen-Z Automaton attacks at the begining of each turn. If no spells were cast last turn Gen-Z Automaton gets +3 attack until end of turn.
-Oblivion,6,Hol-Can,Void,"Void all active spells, Destroy all conjurations, expunge all hexes and jinxes."
+Oblivion,6,Hol-Can,Void,"Void all active spells, expunge all static cards."
+Abrasion Cloud,5,Galdr,Void,"Choose conjurations, hexes, or jinxes. Expunge all static cards of the chosen kind."
+Enveloping Mists,4,Galdr-Hex,Void,"At the end of each turn add two mist counters to Enveloping Mists. Whenever a spell resolves remove a mist counter. If at the begining of your turn there are 10 or more mist counters on Enveloping Mists, expunge it and target opponent loses 20 life. "
+Fifth-Fleet Guns,5,Galdr-Mech,Void,10 HP counters. Pay 4 mana to deal 2 damage to any target.
+Lotan's Stirrings,4,Galdr,Deep,"Discard cards equal to the amount of charge counters on this spell. If you do, draw twice that many cards."
+Mana Fish,3,Galdr,Deep,Each Mystic creates a 1/1 Fish Conjuration for each card in their hand. They may attack whenever their owner draws one or more cards.
+Negative Shock,1,Re-Can,Void,"Void target spell that would deal damage. You may pay x mana where x is the cost of the spell, if you do, deal damage to the spells caster equal to the amount of damage that their spell would have dealt."
