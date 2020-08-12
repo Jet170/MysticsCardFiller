@@ -42,7 +42,7 @@ Grasping Tentacles,3,Galdr-Hex,Deep,"Whenever a Mystic would draw a card aside f
 Riptide,2,Galdr,Deep,Each Mystic draws a card for each charge counter on Riptide. Target Mystic loses life equal to the number of cards in their hand. 
 Tidal Flow,2,Pro-Can,Deep,Each Mystic draws 3 cards then discards 2
 Seeking Whale-Shark,4,Galdr-Conj,Deep,4 attack 2 HP. Whenever a Mystic draws one or more cards Seeking Whale-Shark may attack that Mystic
-Apex Predation,4,Pro-Can,Deep,The Mystic with the most cards in hand draws 1 cards and gains 5 mana
+Apex Predation,4,Pro-Can,Deep,The Mystic with the most cards in hand and gains 6 mana
 Rejection from the Depths,3,Re-Can,Deep,Void target spell cast by a Mystic with four or more cards in hand
 Blackwater,2,Pro-Can,Deep,Draw 1 card. Deal x damage where x is the number of cards you have drawn this turn.
 Current Tides,1,Galdr-Hex,Deep,"Hex Mystic other than yourself draws a card you draw a card as well. Any Mystic may pay x mana to expunge Current Tides, where x is 3 plus the number of charge counters on Current Tides."
@@ -60,6 +60,8 @@ Deep Blue,10,Galdr,Deep,Target Mystic draws their entire reserves.
 Overwhelm,4,Galdr-Hex,Deep,Whenever you draw more than 1 card target Mystic loses 3 life
 Oceanic Scouring,3,Pro-Can,Deep,Expunge one hex target Mystic owns for every 3 cards in their hand
 Benthic Rejection,2,Re-Can,Deep,Void target spell. The spells caster draws 2 cards.
+Lotan's Stirrings,4,Galdr,Deep,"Discard cards equal to the amount of charge counters on this spell. If you do, draw twice that many cards."
+Mana Fish,3,Galdr,Deep,Each Mystic creates a 1/1 Fish Conjuration for each card in their hand. They may attack whenever their owner draws one or more cards.
 Dark Deeds,4,Galdr,Delirium,"Each Player discards 3 cards, and takes damage equal to the number of charge counters on this card"
 Mind Muddle,6,Galdr-Hex,Delirium,Hexed player cannot cast Re-Cantrips. 
 Revel in the Madness,5,Galdr,Delirium,"Pay 3 life, target opponent discards a card or breaks a card in their chamber. Repeat this process any number of times. "
@@ -73,7 +75,7 @@ Black Out,3,Galdr,Delirium,"End the Round (all chambered spells break, Mystics R
 Jeering Simii,3,Galdr-Conj,Delirium,1/3. Jeering Simii attacks target player whenever they discard a card. You cannot be attacked by conjurations as long as you own Jeering Simii
 Mental Decay,5,Galdr-Hex,Delirium,"At the begining of hexed Mystics turn, they discard a card"
 Misery's Company,2,Galdr-Hex,Delirium,At the begining of each Mystic's turn that player discards a card.
-Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at the end of your turn if a card was discarded that turn. Whenever Meningeal Flies attack, create a copy of it."
+Meningeal Flies,4,Galdr-Conj,Delirium,"1/1. Meningeal Flies must attack at the end of your turn if a card was discarded that turn. Whenever a fly attacks, make a 1/1 fly that attacks at the end of your turn if a card was discarded. "
 Delusion,2,Re-Can,Delirium,Void target spell cast by another Mystic. That Mystic reveals the top card of their reserves and if it shares the same type (galdr or cantrip) casts it without paying its mana cost.
 Methodical Madness,1,Galdr-Jinx,Delirium,"Once, on each of your turns, you may discard a card, if you do, draw a card."
 Mind Break,2,Galdr-Jinx,Delirium,Jinxed Mystic cannot cast spells that cost 4 or more mana.
@@ -231,8 +233,17 @@ Rule of Six,6,Galdr-Hex,Void,Spells with mana costs of 6 or greater can't be cas
 Gen-Z Automaton,2,Galdr-Conj,Void,1 attack 1 HP. Gen-Z Automaton attacks at the begining of each turn. If no spells were cast last turn Gen-Z Automaton gets +3 attack until end of turn.
 Oblivion,6,Hol-Can,Void,"Void all active spells, expunge all static cards."
 Abrasion Cloud,5,Galdr,Void,"Choose conjurations, hexes, or jinxes. Expunge all static cards of the chosen kind."
-Enveloping Mists,4,Galdr-Hex,Void,"At the end of each turn add two mist counters to Enveloping Mists. Whenever a spell resolves remove a mist counter. If at the begining of your turn there are 10 or more mist counters on Enveloping Mists, expunge it and target opponent loses 20 life. "
+Enveloping Mists,4,Galdr-Hex,Void,"At the end of each turn add two mist counters to Enveloping Mists. Whenever an opponents spell resolves remove a mist counter. If at the begining of your turn there are 10 or more mist counters on Enveloping Mists, expunge it and target opponent loses 20 life. "
 Fifth-Fleet Guns,5,Galdr-Mech,Void,10 HP counters. Pay 4 mana to deal 2 damage to any target.
-Lotan's Stirrings,4,Galdr,Deep,"Discard cards equal to the amount of charge counters on this spell. If you do, draw twice that many cards."
-Mana Fish,3,Galdr,Deep,Each Mystic creates a 1/1 Fish Conjuration for each card in their hand. They may attack whenever their owner draws one or more cards.
 Negative Shock,1,Re-Can,Void,"Void target spell that would deal damage. You may pay x mana where x is the cost of the spell, if you do, deal damage to the spells caster equal to the amount of damage that their spell would have dealt."
+Twisted Self Relfection,6,Galdr,Delirium,Change target opponents life total to be equal to your life total.
+Gen A Enumerator,3,Galdr-Mech,Void,6 HP counters. Pay 3 mana to draw a card.
+Prime-9 Adaptor,7,Galdr-Mech,Void,7 HP counters. Pay 2 mana to activate any ability of another mechanic you own.
+Upkeep,1,Hol-Can,Void,"Repair 2 to each Mechanic you own. You may search your reserves for another copy of Upkeep. If you do, reveal it, put it into your hand and shuffle your reserves."
+Pentimana Syphon,2,Galdr-Mech,Void,"4 HP counters. At the beginning of each opponents turn they lose 1 mana and add one mana counter to Syphon. On the beginning of your turn, if Syphon has 5 or more mana counters on it, expunge it and add 5 mana."
+Self Generating Combustors,4,Galdr-Mech,Void,"2 HP counters. At the end of each turn, if the active player did not resolve any spells, create a copy of Combustors. At the end of each round you may expunge all combustors you own, dealing 2 damage for each one. If three or more spells are resolved by a Mystic in one turn, expunge all combustors, dealing 2 damage to yourself for each one."
+Repurposing Station,3,Galdr-Mech,Void,5 HP counters. You may pay 3 mana to return a Mechanic spell from your hollows to hand.
+Alamind's Retrofitter,5,Galdr-Mech,Void,6 HP counters. You may play a Mechanic from your hand by expunging a Mechanic you own and paying the net difference in mana cost between the two. 
+Spark Emitter,1,Galdr-Mech,Void,"2 HP. Whenever a mechanic enters play that you own, deal 1 damage to target opponent."
+Tireless Constructor,2,Galdr-Mech,Void,3 HP. Mechanic spells you play cost 1 less to cast.
+Capsize,2,Galdr,Deep,Each Mystic discards their hand and draws 4 cards.
