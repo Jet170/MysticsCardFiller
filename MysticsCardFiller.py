@@ -103,15 +103,17 @@ def readFromCSV():
 
 #Creates card images
 def createCardImages():
-    nameFont = ImageFont.truetype("constan.ttf", 20)
+    fontName = 'Umpush.ttf' #constan
+    fontScaler = 0.75
+    nameFont = ImageFont.truetype(fontName, int(20 * fontScaler))
     nameCoords = [5, 5]
-    manaFont = ImageFont.truetype("constani.ttf", 20)
+    manaFont = ImageFont.truetype(fontName, int(20 * fontScaler))
     manaCoords = [226, 12]
-    typeFont = ImageFont.truetype("constan.ttf", 15)
+    typeFont = ImageFont.truetype(fontName, int(15 * fontScaler))
     typeCoords = [5, 30]
-    magicFont = ImageFont.truetype("constani.ttf", 15)
+    magicFont = ImageFont.truetype(fontName, int(15 * fontScaler))
     #Magic coords depend on card type
-    textFont = ImageFont.truetype("constan.ttf", 16)
+    textFont = ImageFont.truetype(fontName, int(16 * fontScaler))
     textCoords = [5, 205]
     artCoords = (5, 50)
 
